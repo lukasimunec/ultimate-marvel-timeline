@@ -204,7 +204,7 @@ const Marvel = () => {
 
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
-                        <h5>Complete Marvel Cinematic Universe</h5>
+                        <h5>Complete MCU Timeline</h5>
                     </div>
                 </div>
 
