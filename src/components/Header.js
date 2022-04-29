@@ -40,34 +40,8 @@ const Header = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
 
-    if (location.pathname === '/') {
-      setTitle(homeTitle + suffix);
-      setDescription(homeDescription);
-    } else if (location.pathname === '/streaming-roulette') {
-      setTitle(diceTitle + suffix);
-      setDescription(diceDescription);
-    } else if (location.pathname === '/complete-marvel-timeline') {
-      setTitle(marvelTitle + suffix);
-      setDescription(marvelDescription);
-    } else if (location.pathname === '/frame-your-wifi') {
-      setTitle(wifiTitle + suffix);
-      setDescription(wifiDescription);
-    } else if (location.pathname === '/sprint-name-generator') {
-      setTitle(sprintTitle + suffix);
-      setDescription(sprintDescription);
-    } else if (location.pathname === '/fake-a-post') {
-      setTitle(postTitle + suffix);
-      setDescription(postDescription);
-    } else if (location.pathname === '/ambient-creator') {
-      setTitle(ambientTitle + suffix)
-      setDescription(ambientDescription);
-    } else if (location.pathname === '/layers-of-earth') {
-      setTitle(earthTitle + suffix);
-      setDescription(earthDescription);
-    } else if (location.pathname === '/privacy-policy') {
-      setTitle(privacyTitle + suffix);
-      setDescription(homeDescription);
-    }
+    setTitle(marvelTitle + suffix);
+    setDescription(marvelDescription);
 
   }, [location])
 

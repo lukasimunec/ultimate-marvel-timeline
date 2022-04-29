@@ -204,7 +204,7 @@ const Marvel = () => {
 
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
-                        <h5>Marvel Cinematic Universe</h5>
+                        <h5>Complete Marvel Cinematic Universe</h5>
                     </div>
                 </div>
 
@@ -1412,9 +1412,6 @@ const Marvel = () => {
                     <button className="btn btn-warning" onClick={() => capture("section-to-print")}>Export as Image</button>
                 </div>
                 <br /><br />
-                <div className="col-12 text-center">
-                    <span>Feel free to contact me. 😁</span>
-                </div>
             </div>
         </div>
     )
