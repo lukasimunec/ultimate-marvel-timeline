@@ -1,0 +1,164 @@
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+
+/* Optional: show position indicator in red */
+
+.lower {
+    color: black !important;
+}
+
+.upper {
+    color: white !important;
+}
+
+.panelCon {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    width: 100vw;
+}
+
+#pane-1 {
+    background: linear-gradient(#fce29d, #ffdeb4);
+    border-top: 1px dashed black;
+}
+
+#pane-2 {
+    background: linear-gradient(#fddc81, #fce29d);
+    border-top: 1px dashed black;
+}
+
+#pane-3 {
+    background: linear-gradient(#fddb41, #fddc81);
+}
+
+#pane-4 {
+    background: linear-gradient(#fdcb41, #fddb41);
+}
+
+#pane-5 {
+    background: linear-gradient(#fc8a2d, #fdcb41);
+}
+
+#pane-6 {
+    background: linear-gradient(#fc6f2d, #fc8a2d);
+}
+
+#pane-7 {
+    background: linear-gradient(#563212, #fc6f2d);
+    border-top: 5px dashed red;
+}
+
+#pane-8 {
+    background: linear-gradient(#070977, #563212);
+}
+
+#pane-9 {
+    background: linear-gradient(#3c7efa, #0f12a8, #070977);
+}
+
+
+/*UP*/
+
+#pane-11 {
+    background: linear-gradient(#1aa3ff, #7fcbfd);
+}
+
+#pane-12 {
+    background: linear-gradient(#2750aa, #8966c9, #1aa3ff), linear-gradient(#2750aa, #1aa3ff);
+}
+
+#pane-13 {
+    background: linear-gradient(#09227c, #2750aa);
+    border-top: 5px dashed red;
+}
+
+#pane-14 {
+    background: linear-gradient(rgba(9, 34, 124, 0.75), rgba(9, 34, 124, 1)), url(../../assets/earth/stars.webp), linear-gradient(#021d7e, #09227c);
+}
+
+#pane-15 {
+    background: linear-gradient(rgba(2, 29, 126, 0.25), rgba(9, 34, 124, 0.75)), url(../../assets/earth/stars.webp), linear-gradient(#010c35, #021d7e);
+    border-top: 5px dashed red;
+}
+
+#pane-16 {
+    background: linear-gradient(rgba(2, 29, 126, 0.25), rgba(2, 29, 126, 0.25)), url(../../assets/earth/stars.webp), linear-gradient(#00061d, #010c35);
+    border-top: 5px dashed red;
+}
+
+#pane-17 {
+    background: linear-gradient(rgba(1, 16, 70, 0.25), rgba(2, 29, 126, 0.25)), url(../../assets/earth/stars.webp), linear-gradient(#00061d, #00061d);
+}
+
+#pane-18 {
+    background: linear-gradient(rgba(0, 4, 19, 0.25), rgba(1, 16, 70, 0.25)), url(../../assets/earth/stars.webp), linear-gradient(#00061d, #00061d);
+    border-top: 5px dashed red;
+}
+
+#pane-19 {
+    background: linear-gradient(rgba(0, 4, 19, 0.25), rgba(0, 4, 19, 0.25)), url(../../assets/earth/stars.webp), linear-gradient(#00061d, #00061d);
+    border-top: 5px dashed red;
+}
+
+#pane-20 {
+    background: linear-gradient(rgba(0, 4, 19, 0.25), rgba(0, 4, 19, 0.25)), url(../../assets/earth/stars.webp), linear-gradient(#00061d, #00061d);
+}
+
+.left-to-right {
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+    animation: linear infinite;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 50s;
+}
+
+.single-invert {
+    filter: brightness(0) invert(1)
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+table {
+    border-collapse: unset !important;
+}
+
+.float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.no-wrap {
+    white-space: nowrap !important;
+}

@@ -1,0 +1,44 @@
+#preview {
+    background-image: linear-gradient(to right, rgb(221, 221, 221) 1px, transparent 1px), linear-gradient(to bottom, rgb(221, 221, 221) 1px, transparent 1px);
+    background-size: 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    line-break: anywhere;
+}
+
+#playground {
+    background-image: linear-gradient(to right, rgb(221, 221, 221) 1px, transparent 1px), linear-gradient(to bottom, rgb(221, 221, 221) 1px, transparent 1px);
+    background-size: 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 75vh;
+}
+
+#html-go {
+    overflow: hidden;
+}
+
+.element-parent .element {
+    display: inline-block;
+    padding: 5px;
+    z-index: 999;
+}
+
+.element-parent * {
+    cursor: grab;
+}
+
+.element-parent .el-btn {
+    display: none;
+}
+
+:hover.element-parent .hovered {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+:hover.element-parent .element>.el-btn {
+    display: inline-block;
+}

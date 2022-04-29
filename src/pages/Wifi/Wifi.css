@@ -1,0 +1,60 @@
+.main {
+    background: white;
+    color: black;
+    height: 500px !important;
+    width: 500px !important;
+}
+
+.main span {
+    word-break: break-word !important;
+}
+
+.main h1 {
+    word-break: break-word !important;
+}
+
+.main h2 {
+    word-break: break-word !important;
+}
+
+#main-1 {
+    padding-left: 15px !important;
+}
+
+#main-2 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.frame {
+    border: 20px black solid;
+    padding: 0px !important;
+}
+
+.showcase img {
+    border-radius: 20px !important;
+}
+
+.bg-steps {
+    background-color: rgb(48, 54, 59);
+    border-radius: 5px;
+    margin: 10px !important;
+    padding: 10px;
+}
+
+.text-div {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+#wifi .form-group {
+    margin-top: 10px !important;
+}
+
+.awssld__content {
+    background-color: transparent !important;
+}
+
+.block-picker {
+    padding: 0px !important;
+}

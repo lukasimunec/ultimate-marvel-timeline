@@ -1,0 +1,105 @@
+.tweet-container {
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+.name {
+    color: black;
+    margin-bottom: 0% !important;
+    margin-top: 0.5em !important;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title img {
+    width: 50px;
+    border-radius: 10rem;
+    margin-right: 1rem;
+}
+
+.title .verified {
+    width: 20px;
+    height: 20px;
+    border-radius: 10rem;
+    margin-right: 1rem;
+}
+
+.info h4 {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+}
+
+.info p {
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1.2rem;
+}
+
+.twitter-handle {
+    font-size: 15px !important;
+}
+
+.tweet .hashtag {
+    color: rgb(29, 155, 240) !important;
+}
+
+.tweet {
+    padding: 0.25rem 0;
+    cursor: text;
+    color: black;
+}
+
+.tweet #phrase {
+    margin-bottom: 0.5rem;
+    font-size: 23px !important;
+}
+
+.tweet p {
+    font-size: 1.2rem;
+}
+
+.time-and-date {
+    color: gray;
+    font-size: 15px;
+}
+
+.time-and-date p span {
+    color: #1da1f2;
+    font-size: 15px;
+}
+
+.likes {
+    color: black;
+    font-size: 15px;
+}
+
+.likes span {
+    color: gray !important
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0.7rem 0;
+    place-items: center;
+}
+
+.bottom-section svg {
+    width: 1.25em;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.7;
+}
+
+.bottom-section svg:hover {
+    opacity: 1;
+}

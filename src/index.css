@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-color: rgb(33, 37, 41);
+    color: rgb(243, 243, 243);
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown-menu {
+    background-color: rgb(243, 243, 243);
+    color: rgb(33, 37, 41);
+}
+
+.dropdown-item {
+    background-color: rgb(243, 243, 243);
+    color: rgb(33, 37, 41);
+}
+
+.dropdown-item.active {
+    background-color: rgb(243, 243, 243);
+    color: rgb(33, 37, 41);
+    font-weight: bold;
+}
+
+.nav-title {
+    margin-bottom: 0rem !important;
+}
+
+.img-btn {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    background-color: rgb(48, 54, 59);
+    color: white;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.static {
+    position: absolute;
+    background: white;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.awssld__content {
+    background-color: white !important;
+}
+
+.scrollable {
+    height: 50vh;
+    width: 80vw;
+    /* or any value */
+    overflow-y: auto;
+}
+
+.env {
+    height: 540px;
+    border-radius: 50px;
+    filter: brightness(0) invert(1);
+    border: 10px solid #555;
+}
+
+.invert {
+    filter: brightness(0) invert(1);
+    background-size: 50px, auto, contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        width: 100%;
+        height: 12.5vw;
+        object-fit: cover;
+    }
+}
