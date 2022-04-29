@@ -24,15 +24,7 @@ const App = () => {
   return (
       <Layout>
         <Switch>
-          <Route path='/' component={Home} exact />
-          <Route path='/code-go' component={HtmlGo} exact />
-          <Route path='/complete-marvel-timeline' component={Marvel} exact />
-          <Route path='/streaming-roulette' component={Dice} exact />
-          <Route path='/frame-your-wifi' component={Wifi} exact />
-          <Route path='/sprint-name-generator' component={Sprint} exact />
-          <Route path='/fake-a-post' component={Post} exact />
-          <Route path='/ambient-creator' component={Ambient} exact />
-          <Route path='/layers-of-earth' component={Earth} exact />
+          <Route path='/' component={Marvel} exact />
           <Route path='/privacy-policy' component={Privacy} />
           <Route component={NotFound} />
         </Switch>
